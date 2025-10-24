@@ -27,9 +27,11 @@ export const ContactCard = ({ id, name, phone, email, onDelete }: ContactCardPro
         </Button>
       </CardHeader>
       <CardContent className="space-y-2">
-        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+        <div className=" text-sm text-muted-foreground">
+          <a className="flex items-center gap-2" href={`tel:${phone}`}>
           <Phone className="h-4 w-4 text-accent" />
           <span>{phone}</span>
+          </a>
         </div>
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
           <Mail className="h-4 w-4 text-accent" />

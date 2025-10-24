@@ -17,21 +17,51 @@ const Index = () => {
   const [contacts, setContacts] = useState<Contact[]>([
     {
       id: "1",
-      name: "Alice Johnson",
-      phone: "+1 (555) 123-4567",
-      email: "alice.johnson@example.com",
+      name: "Parikshit",
+      phone: "+91 98765 43210",
+      email: "parikshit@example.com",
     },
     {
       id: "2",
-      name: "Bob Smith",
-      phone: "+1 (555) 234-5678",
-      email: "bob.smith@example.com",
+      name: "Armaan",
+      phone: "+91 91234 56789",
+      email: "armaan@example.com",
     },
     {
       id: "3",
-      name: "Carol Williams",
-      phone: "+1 (555) 345-6789",
-      email: "carol.williams@example.com",
+      name: "Achintya",
+      phone: "+91 99876 54321",
+      email: "achintya@example.com",
+    },
+    {
+      id: "4",
+      name: "Abhiraj",
+      phone: "+91 90909 80808",
+      email: "abhiraj@example.com",
+    },
+    {
+      id: "5",
+      name: "Varshath",
+      phone: "+91 98123 45678",
+      email: "varshath@example.com",
+    },
+    {
+      id: "6",
+      name: "Pratham",
+      phone: "+91 97000 11122",
+      email: "pratham@example.com",
+    },
+    {
+      id: "7",
+      name: "Nishkranth",
+      phone: "+91 98675 12345",
+      email: "nishkranth@example.com",
+    },
+    {
+      id: "8",
+      name: "Himanshu",
+      phone: "+91 98989 76543",
+      email: "himanshu@example.com",
     },
   ]);
 
